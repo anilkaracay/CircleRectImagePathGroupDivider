@@ -7,12 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D00369CB2654E103005E5202 /* UserProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00369CA2654E103005E5202 /* UserProgress.swift */; };
 		D037DB7F26525FD000655F2B /* CircleColorDividerGroupImagePathRectangleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037DB7E26525FD000655F2B /* CircleColorDividerGroupImagePathRectangleApp.swift */; };
 		D037DB8126525FD000655F2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037DB8026525FD000655F2B /* ContentView.swift */; };
 		D037DB8326525FD100655F2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D037DB8226525FD100655F2B /* Assets.xcassets */; };
 		D037DB8626525FD100655F2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D037DB8526525FD100655F2B /* Preview Assets.xcassets */; };
 		D037DB9126525FD100655F2B /* CircleColorDividerGroupImagePathRectangleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037DB9026525FD100655F2B /* CircleColorDividerGroupImagePathRectangleTests.swift */; };
 		D037DB9C26525FD100655F2B /* CircleColorDividerGroupImagePathRectangleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037DB9B26525FD100655F2B /* CircleColorDividerGroupImagePathRectangleUITests.swift */; };
+		D037DBAD2652601C00655F2B /* CircleEx1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037DBAC2652601C00655F2B /* CircleEx1.swift */; };
+		D037DBB2265285F300655F2B /* CircleEx2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037DBB1265285F300655F2B /* CircleEx2.swift */; };
+		D037DBBF26528EAF00655F2B /* FancyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037DBBE26528EAF00655F2B /* FancyTimer.swift */; };
+		D037DBC42652980700655F2B /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037DBC32652980700655F2B /* Contact.swift */; };
+		D037DBC926529A9500655F2B /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037DBC826529A9500655F2B /* Temperature.swift */; };
+		D07577C22653FC8C00FA7741 /* ButtonComp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07577C12653FC8C00FA7741 /* ButtonComp.swift */; };
+		D0A59930265787FA00094B76 /* PathEx2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A5992F265787FA00094B76 /* PathEx2.swift */; };
+		D0A59935265791BD00094B76 /* RectangleEx1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A59934265791BD00094B76 /* RectangleEx1.swift */; };
+		D0A5993A265795E100094B76 /* RectangleEx2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A59939265795E100094B76 /* RectangleEx2.swift */; };
+		D0A5993F265797A900094B76 /* RectangleEx3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A5993E265797A900094B76 /* RectangleEx3.swift */; };
+		D0A5994426579DE700094B76 /* RectangleEx4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A5994326579DE700094B76 /* RectangleEx4.swift */; };
+		D0A599492657A01800094B76 /* RectangleEx5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A599482657A01800094B76 /* RectangleEx5.swift */; };
+		D0A5994E2657A57600094B76 /* RectangleEx6.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A5994D2657A57600094B76 /* RectangleEx6.swift */; };
+		D0C530742656369400597E4E /* CircleEx6.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C530732656369400597E4E /* CircleEx6.swift */; };
+		D0D037072654E42F00B6DE51 /* CircleEx3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D037062654E42F00B6DE51 /* CircleEx3.swift */; };
+		D0D0370C2654E8AB00B6DE51 /* CircleEx4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D0370B2654E8AB00B6DE51 /* CircleEx4.swift */; };
+		D0D037112655034600B6DE51 /* CircleEx5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D037102655034600B6DE51 /* CircleEx5.swift */; };
+		D0D38A1826563B1E006F298E /* ColorEx1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D38A1726563B1E006F298E /* ColorEx1.swift */; };
+		D0D38A1D26563DEB006F298E /* ColorEx2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D38A1C26563DEB006F298E /* ColorEx2.swift */; };
+		D0D38A2226564025006F298E /* ColorEx3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D38A2126564025006F298E /* ColorEx3.swift */; };
+		D0D38A2726564107006F298E /* DividerEx1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D38A2626564107006F298E /* DividerEx1.swift */; };
+		D0D38A2C265644C4006F298E /* DividerEx2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D38A2B265644C4006F298E /* DividerEx2.swift */; };
+		D0D38A3126564631006F298E /* GroupEx1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D38A3026564631006F298E /* GroupEx1.swift */; };
+		D0D38A3626564843006F298E /* GroupEx2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D38A3526564843006F298E /* GroupEx2.swift */; };
+		D0D38A3B26564A2F006F298E /* ImageEx1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D38A3A26564A2F006F298E /* ImageEx1.swift */; };
+		D0D38A402656503B006F298E /* ImageEx2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D38A3F2656503B006F298E /* ImageEx2.swift */; };
+		D0D38A452656520B006F298E /* ImageEx3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D38A442656520B006F298E /* ImageEx3.swift */; };
+		D0D38A4A265653B8006F298E /* ImageSfEx1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D38A49265653B8006F298E /* ImageSfEx1.swift */; };
+		D0D38A4F265656DD006F298E /* PathEx1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D38A4E265656DD006F298E /* PathEx1.swift */; };
+		D0D38A5426565B57006F298E /* InnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D38A5326565B57006F298E /* InnerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +64,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D00369CA2654E103005E5202 /* UserProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProgress.swift; sourceTree = "<group>"; };
 		D037DB7B26525FD000655F2B /* CircleColorDividerGroupImagePathRectangle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleColorDividerGroupImagePathRectangle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D037DB7E26525FD000655F2B /* CircleColorDividerGroupImagePathRectangleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleColorDividerGroupImagePathRectangleApp.swift; sourceTree = "<group>"; };
 		D037DB8026525FD000655F2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +77,36 @@
 		D037DB9726525FD100655F2B /* CircleColorDividerGroupImagePathRectangleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleColorDividerGroupImagePathRectangleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D037DB9B26525FD100655F2B /* CircleColorDividerGroupImagePathRectangleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleColorDividerGroupImagePathRectangleUITests.swift; sourceTree = "<group>"; };
 		D037DB9D26525FD100655F2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D037DBAC2652601C00655F2B /* CircleEx1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleEx1.swift; sourceTree = "<group>"; };
+		D037DBB1265285F300655F2B /* CircleEx2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleEx2.swift; sourceTree = "<group>"; };
+		D037DBBE26528EAF00655F2B /* FancyTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyTimer.swift; sourceTree = "<group>"; };
+		D037DBC32652980700655F2B /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		D037DBC826529A9500655F2B /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
+		D07577C12653FC8C00FA7741 /* ButtonComp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonComp.swift; sourceTree = "<group>"; };
+		D0A5992F265787FA00094B76 /* PathEx2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathEx2.swift; sourceTree = "<group>"; };
+		D0A59934265791BD00094B76 /* RectangleEx1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleEx1.swift; sourceTree = "<group>"; };
+		D0A59939265795E100094B76 /* RectangleEx2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleEx2.swift; sourceTree = "<group>"; };
+		D0A5993E265797A900094B76 /* RectangleEx3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleEx3.swift; sourceTree = "<group>"; };
+		D0A5994326579DE700094B76 /* RectangleEx4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleEx4.swift; sourceTree = "<group>"; };
+		D0A599482657A01800094B76 /* RectangleEx5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleEx5.swift; sourceTree = "<group>"; };
+		D0A5994D2657A57600094B76 /* RectangleEx6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleEx6.swift; sourceTree = "<group>"; };
+		D0C530732656369400597E4E /* CircleEx6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleEx6.swift; sourceTree = "<group>"; };
+		D0D037062654E42F00B6DE51 /* CircleEx3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleEx3.swift; sourceTree = "<group>"; };
+		D0D0370B2654E8AB00B6DE51 /* CircleEx4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleEx4.swift; sourceTree = "<group>"; };
+		D0D037102655034600B6DE51 /* CircleEx5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleEx5.swift; sourceTree = "<group>"; };
+		D0D38A1726563B1E006F298E /* ColorEx1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorEx1.swift; sourceTree = "<group>"; };
+		D0D38A1C26563DEB006F298E /* ColorEx2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorEx2.swift; sourceTree = "<group>"; };
+		D0D38A2126564025006F298E /* ColorEx3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorEx3.swift; sourceTree = "<group>"; };
+		D0D38A2626564107006F298E /* DividerEx1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerEx1.swift; sourceTree = "<group>"; };
+		D0D38A2B265644C4006F298E /* DividerEx2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerEx2.swift; sourceTree = "<group>"; };
+		D0D38A3026564631006F298E /* GroupEx1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupEx1.swift; sourceTree = "<group>"; };
+		D0D38A3526564843006F298E /* GroupEx2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupEx2.swift; sourceTree = "<group>"; };
+		D0D38A3A26564A2F006F298E /* ImageEx1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEx1.swift; sourceTree = "<group>"; };
+		D0D38A3F2656503B006F298E /* ImageEx2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEx2.swift; sourceTree = "<group>"; };
+		D0D38A442656520B006F298E /* ImageEx3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEx3.swift; sourceTree = "<group>"; };
+		D0D38A49265653B8006F298E /* ImageSfEx1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSfEx1.swift; sourceTree = "<group>"; };
+		D0D38A4E265656DD006F298E /* PathEx1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathEx1.swift; sourceTree = "<group>"; };
+		D0D38A5326565B57006F298E /* InnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +162,37 @@
 				D037DB8226525FD100655F2B /* Assets.xcassets */,
 				D037DB8726525FD100655F2B /* Info.plist */,
 				D037DB8426525FD100655F2B /* Preview Content */,
+				D037DBAC2652601C00655F2B /* CircleEx1.swift */,
+				D037DBB1265285F300655F2B /* CircleEx2.swift */,
+				D037DBBE26528EAF00655F2B /* FancyTimer.swift */,
+				D037DBC32652980700655F2B /* Contact.swift */,
+				D037DBC826529A9500655F2B /* Temperature.swift */,
+				D07577C12653FC8C00FA7741 /* ButtonComp.swift */,
+				D00369CA2654E103005E5202 /* UserProgress.swift */,
+				D0D037062654E42F00B6DE51 /* CircleEx3.swift */,
+				D0D0370B2654E8AB00B6DE51 /* CircleEx4.swift */,
+				D0D037102655034600B6DE51 /* CircleEx5.swift */,
+				D0C530732656369400597E4E /* CircleEx6.swift */,
+				D0D38A1726563B1E006F298E /* ColorEx1.swift */,
+				D0D38A1C26563DEB006F298E /* ColorEx2.swift */,
+				D0D38A2126564025006F298E /* ColorEx3.swift */,
+				D0D38A2626564107006F298E /* DividerEx1.swift */,
+				D0D38A2B265644C4006F298E /* DividerEx2.swift */,
+				D0D38A3026564631006F298E /* GroupEx1.swift */,
+				D0D38A3526564843006F298E /* GroupEx2.swift */,
+				D0D38A3A26564A2F006F298E /* ImageEx1.swift */,
+				D0D38A3F2656503B006F298E /* ImageEx2.swift */,
+				D0D38A442656520B006F298E /* ImageEx3.swift */,
+				D0D38A49265653B8006F298E /* ImageSfEx1.swift */,
+				D0D38A4E265656DD006F298E /* PathEx1.swift */,
+				D0D38A5326565B57006F298E /* InnerView.swift */,
+				D0A5992F265787FA00094B76 /* PathEx2.swift */,
+				D0A59934265791BD00094B76 /* RectangleEx1.swift */,
+				D0A59939265795E100094B76 /* RectangleEx2.swift */,
+				D0A5993E265797A900094B76 /* RectangleEx3.swift */,
+				D0A5994326579DE700094B76 /* RectangleEx4.swift */,
+				D0A599482657A01800094B76 /* RectangleEx5.swift */,
+				D0A5994D2657A57600094B76 /* RectangleEx6.swift */,
 			);
 			path = CircleColorDividerGroupImagePathRectangle;
 			sourceTree = "<group>";
@@ -259,8 +352,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0D38A1826563B1E006F298E /* ColorEx1.swift in Sources */,
+				D037DBC42652980700655F2B /* Contact.swift in Sources */,
+				D0A5993F265797A900094B76 /* RectangleEx3.swift in Sources */,
+				D0D38A1D26563DEB006F298E /* ColorEx2.swift in Sources */,
+				D0D38A5426565B57006F298E /* InnerView.swift in Sources */,
+				D0A59935265791BD00094B76 /* RectangleEx1.swift in Sources */,
+				D037DBBF26528EAF00655F2B /* FancyTimer.swift in Sources */,
+				D0D38A4F265656DD006F298E /* PathEx1.swift in Sources */,
+				D0A5994E2657A57600094B76 /* RectangleEx6.swift in Sources */,
+				D037DBAD2652601C00655F2B /* CircleEx1.swift in Sources */,
+				D0D38A452656520B006F298E /* ImageEx3.swift in Sources */,
+				D0D0370C2654E8AB00B6DE51 /* CircleEx4.swift in Sources */,
+				D0D38A3B26564A2F006F298E /* ImageEx1.swift in Sources */,
 				D037DB8126525FD000655F2B /* ContentView.swift in Sources */,
+				D0D037072654E42F00B6DE51 /* CircleEx3.swift in Sources */,
+				D0D38A2226564025006F298E /* ColorEx3.swift in Sources */,
 				D037DB7F26525FD000655F2B /* CircleColorDividerGroupImagePathRectangleApp.swift in Sources */,
+				D0D38A3126564631006F298E /* GroupEx1.swift in Sources */,
+				D0D38A4A265653B8006F298E /* ImageSfEx1.swift in Sources */,
+				D0C530742656369400597E4E /* CircleEx6.swift in Sources */,
+				D037DBC926529A9500655F2B /* Temperature.swift in Sources */,
+				D0A599492657A01800094B76 /* RectangleEx5.swift in Sources */,
+				D0A5994426579DE700094B76 /* RectangleEx4.swift in Sources */,
+				D0A5993A265795E100094B76 /* RectangleEx2.swift in Sources */,
+				D07577C22653FC8C00FA7741 /* ButtonComp.swift in Sources */,
+				D037DBB2265285F300655F2B /* CircleEx2.swift in Sources */,
+				D0D037112655034600B6DE51 /* CircleEx5.swift in Sources */,
+				D0D38A2726564107006F298E /* DividerEx1.swift in Sources */,
+				D0D38A3626564843006F298E /* GroupEx2.swift in Sources */,
+				D00369CB2654E103005E5202 /* UserProgress.swift in Sources */,
+				D0D38A2C265644C4006F298E /* DividerEx2.swift in Sources */,
+				D0A59930265787FA00094B76 /* PathEx2.swift in Sources */,
+				D0D38A402656503B006F298E /* ImageEx2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
